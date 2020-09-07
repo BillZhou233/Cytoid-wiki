@@ -17,6 +17,7 @@
 - [更新](/update/)
     - [Cytoid 更新记录](/update/Cytoid)
     - [Wiki 更新记录](/update/wiki)
+    - [分支版本更新日志](/update/branch)
     
 - [关于](/about/)
 
