@@ -1,4 +1,4 @@
-![img](/site-source/pic/sayaka_thumb.png)
+![img](/site-source/pic/Cytoid-readme-head.png)
 
 # Cytoid ~~中文~~ 符语 Wiki
 
