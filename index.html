@@ -78,6 +78,7 @@
   <div id="app">Tix贵阳中 ...</div>
   <script src="/site-source/js/docsify/docsify.min.js"></script>
   <script src="/site-source/js/docsify/plugins/docsify-edit-on-github.js"></script>
+  <script src="/site-source/js/docsify/plugins/docsify-copy-code.min.js"></script>
 
   <script>
     window.$docsify = {
@@ -98,6 +99,11 @@
         noData: '则不呢就美丽了',
         paths: 'auto',
         placeholder: '搜索'
+      },
+      copyCode: {
+      buttonText : '复制',
+      errorText  : '失败',
+      successText: '成功',
       },
       plugins: [
         //EditOnGithubPlugin.create('https://github.com/BillZhou233/Cytoid-wiki/blob/master/', null, '发现不对劲? 请在 GitHub 上帮助我们更正')  // enable when deploy
