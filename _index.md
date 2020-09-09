@@ -1,6 +1,6 @@
 ![img](/site-source/pic/Cytoid-readme-head.png)
 
-# Cytoid ~~中文~~ 符语 Wiki
+# Cytoid Unofficial Wiki
 
 !> 这是 Cytoid 中文 Wiki 的一个 __分支版本__，目前由 [BillZhou233](https://github.com/BillZhou233/) 维护。  
 请注意，该版本中部分内容可能与主版本有出入，若出现此种情况，请以主版本为准。  
