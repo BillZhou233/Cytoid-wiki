@@ -10,6 +10,15 @@
 
 ## 游戏玩法
 
+<!-- Begin of Added Context By BillZhou233 / 2020.09.22 -->
+
+Cytoid 的规则很简单，您只需要配合着音乐的节奏在恰当的时机清除屏幕上出现的各种 Note。尽可能准确地清除它们，获得高分吧！
+
+想知道具体的规则？请尝试游玩游戏中内置的 Tutorial 谱面，该谱面的两个难度分别对应着基础和进阶的玩法。
+
+<!-- End of Added Context By BillZhou233 / 2020.09.22 -->
+
+<!--
 与其他音乐游戏类似，Cytoid 需要您配合着音乐的节奏在恰当的时机点击恰当的位置。
 
 
@@ -26,6 +35,7 @@
 #### Hold
 
 #### Long Hoold（Hold的变种）
+-->
 
 <!-- Begin of Added Context By BillZhou233 / 2020.09.08 -->
 
