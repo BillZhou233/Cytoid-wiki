@@ -7,9 +7,10 @@
 - [制谱](/charting/)
     - [谱面制作](/charting/charting)
     - [故事板制作](/charting/storyboarding)
+    - [打包和上传](/charting/uploading)
     - [注意事项](/charting/notice)
     - [资源下载](charting/source)
-
+    
 - [活动](/events/)
     - [周边](/events/special)
     - [比赛](/events/race)
