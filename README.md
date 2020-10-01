@@ -8,4 +8,4 @@ A branch version maintained by BillZhou233 just for fun.
 
 - 补全部分空白
 - 符语 (just for fun)
-- 或许会修 iOS 右下角问题 (碰不到板子 先贵阳)
+- 或许会修 iOS 右下角问题 (PARTLY OK)
