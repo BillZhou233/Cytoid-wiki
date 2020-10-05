@@ -4,7 +4,7 @@
 
 > 啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！1111
 
-[GitHub](https://github.com/Cytoid/Cytoid)
+[GitHub](https://github.com/BillZhou233/Cytoid-wiki)
 [阅读 Wiki](#main)
 
 <!-- background image -->
