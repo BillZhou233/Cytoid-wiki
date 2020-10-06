@@ -44,6 +44,6 @@
 
 同步自主仓库的内容以主仓库版权声明为主。
 
-个人补充内容大概是采用 CC-BY-NC-SA... 等补充到一定程度再说（
+补充内容采用 CC-BY-NC-SA 许可协议，允许规范转载。
 
-[support](/site-source/part/support.md ':include')
+本来下面应该有一组卡片链接，但是 Docsify 套用 CDN 后的奇妙特性使得卡片链接无法点击故隐藏，抱歉。
