@@ -123,9 +123,9 @@ Rating（rt）是用于展现玩家实力的数值。Cytoid 有一套详细的�
 > 整体 Rating =（最高的 30 个单曲 Rating + 最近 60 天中最高的 10 个单曲 Rating）/ 40
 > 
 > 表现评分 y 的计算按照与精准度 x 有关的如下分段函数：  
-> ![](./_source_mechanism.md/rt_latex.svg)  
+> ![](/_source_mechanism.md/rt_latex.svg)  
 > 不想看到这么复杂的函数式？画成图像大概长这样：  
-> ![](./_source_mechanism.md/rt_graph.png)  
+> ![](/_source_mechanism.md/rt_graph.png)  
 
 <!--
 LaTeX Source:
