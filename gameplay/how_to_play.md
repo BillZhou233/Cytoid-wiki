@@ -1,6 +1,6 @@
 # 开始游玩 Cytoid
 
-<!-- Autjor: 冰糖酱-BillZhou233 a.k.a 贵阳市非官方客服娘 -->
+<!-- Autjor: 冰糖酱-BillZhou233 a.k.a 贵阳市非官方客服娘 / 2020.10.13 -->
 
 ## 下载 Cytoid
 
