@@ -4,7 +4,7 @@
 
 「让我们一起，塑造出音乐的天地吧...！」
 
-欢迎来到 Cytoid Unofficial Wiki，目前由 [冰糖酱-BillZhou233](https://github.com/BillZhou233/) a.k.a「贵阳市非官方客服娘」维护的，关于社区自制谱音游 Cytoid 的非官方工具站。
+这是 [Cytoid Wiki](https://github.com/CytoidCommunity/Cytoid-wiki) 的一个分支版本，目前由 [冰糖酱-BillZhou233](https://github.com/BillZhou233/) a.k.a「贵阳市非官方客服娘」维护。
 
 ### 贵阳计划
 

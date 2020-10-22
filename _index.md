@@ -4,7 +4,7 @@
 
 「让我们一起，塑造出音乐的天地吧...！」
 
-!> 这是 Cytoid 中文 Wiki 的一个 __分支版本__ ，目前由 [冰糖酱-BillZhou233](https://github.com/BillZhou233/) a.k.a「贵阳市非官方客服娘」维护。  
+!> 这是 [Cytoid 中文 Wiki](https://github.com/CytoidCommunity/Cytoid-wiki) 的一个 __分支版本__ ，目前由 [冰糖酱-BillZhou233](https://github.com/BillZhou233/) a.k.a「贵阳市非官方客服娘」维护。  
 请注意，该版本中部分内容可能与主版本有出入，若出现此种情况，请以主版本为准。  
 该版本大部分内容参考自 Cytoid 的 [英文 Wiki](https://sites.google.com/site/cytoidcommunity/home) 及 [Notion](https://www.notion.so/Cytoid-HQ-7b6409291fd34bb397ee5b960eb06c25)。
 
