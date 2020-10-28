@@ -2,7 +2,7 @@
 
 # Cytoid Wiki <small> Unofficial </small>
 
-> 啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！1111
+> 「让我们一起，塑造出音乐的天地吧...！」
 
 [GitHub](https://github.com/BillZhou233/Cytoid-wiki)
 [阅读 Wiki](#main)

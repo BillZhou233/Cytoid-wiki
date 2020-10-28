@@ -11,3 +11,4 @@
 - [ ] 补全部分空白
 - [x] CDN 优化 with jsDelivr
 - [x] 或许会修 iOS 显示问题 (PARTLY OK)
+- [x] 自动简繁转换

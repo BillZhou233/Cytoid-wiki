@@ -1,3 +1,3 @@
-- 符语切换
-  - [关闭](/)
-  - [开启!!1111](/fujaoese/)
+- 简繁转换
+  - [简体](javascript:void(0) ':target=_self :id=toZHS')
+  - [繁體](javascript:void(0) ':target=_self :id=toZHT')

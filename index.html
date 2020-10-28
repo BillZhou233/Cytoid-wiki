@@ -75,17 +75,25 @@
 </head>
 
 <body>
+  <nav>
+      <a href="javascript:void(0)" onclick="setLang('zh-hans')"><noconvert>简体</noconvert></a>
+      <a href="javascript:void(0)" onclick="setLang('zh-hant')"><noconvert>繁體</noconvert></a>
+  </nav>
   <div id="app">Tix贵阳中 ...</div>
   <script src="/site-source/js/docsify/docsify.min.js"></script>
   <script src="/site-source/js/docsify/plugins/docsify-edit-on-github.js"></script>
+  <script src="/site-source/js/opencc/opencc.js"></script>
+  <script src="/site-source/js/opencc/util.js"></script>
 
   <script>
+    const converter = OpenCC.Converter('cn', 't');
+
     window.$docsify = {
       auto2top: true,
       coverpage: true,
       executeScript: true,
       loadSidebar: true,
-      loadNavbar: false,  // enable when fujaoese ready
+      loadNavbar: false,
       mergeNavbar: true,
       maxLevel: 4,
       subMaxLevel: 5,
@@ -105,6 +113,20 @@
         successText: '成功',
       },
       plugins: [
+        function(hook, vm) // Convert zh-hans <-> zh-hant
+          {
+            hook.doneEach(async function()
+            {
+              $("html").attr("lang", (useZHT)? "zh-hant": "zh-hans");
+              if (useZHT)
+              {
+                const convert = await converter;
+                const startNode = document.documentElement;
+                const HTMLConvertHandler = OpenCC.HTMLConverter2(convert, startNode);
+                HTMLConvertHandler.convert();
+              }
+            });
+          }
         //EditOnGithubPlugin.create('https://github.com/BillZhou233/Cytoid-wiki/blob/master/', null, '发现不对劲? 请在 GitHub 上帮助我们更正')  // enable when deploy
       ],
 
@@ -128,7 +150,7 @@
   <script src="/site-source/js/prismjs/prism-nginx.min.js"></script>
   <script src="/site-source/js/prismjs/prism-php.min.js"></script>
   <script src="/site-source/js/prismjs/prism-json.min.js"></script>
-
+  <!-- dark mode button -->
   <script src="/site-source/js/auto-dark-mode.js"></script>
   <button id="btn-dark" class="btn-dark btn-float2" title="Dark Mode" onclick="manualDark()">
     <i class="fa fa-moon-o fa-rotate-270" aria-hidden="true"></i>
