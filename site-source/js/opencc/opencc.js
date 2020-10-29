@@ -163,8 +163,10 @@ const OpenCC = {
 		function convert() {
 			function _inner(currentNode) {
 				/* Do not convert these elements */
-				if (currentNode.tagName == 'NOCONVERT')
-					return
+				if (currentNode.nodeType == Node.ELEMENT_NODE && currentNode.className.toString().split(" ").findIndex((val, index, obj) => {return val === "ignore-opencc"}) != -1)
+					return;
+				else if (currentNode.nodeType == Node.COMMENT_NODE)
+					return;
 				else if (currentNode.tagName == 'SCRIPT')
 					return;
 				else if (currentNode.tagName == 'STYLE')

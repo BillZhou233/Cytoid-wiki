@@ -10,7 +10,8 @@ function setLang(lang)
     history.go(0);
 }
 
-var useZHT = isSysZHT();
+// var useZHT = isSysZHT();
+var useZHT = false;  // disable auto detection
 
 switch (localStorage.getItem("userLang"))
 {
