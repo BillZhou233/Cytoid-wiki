@@ -3,6 +3,9 @@
 此页面所述之内容来自 Cytoid 官方主群文件。
 
 ### 符语集合2017
+
+<span class="ignore-opencc">
+
 ```
 CFHSS TRKJJ CFJSS EFHHH EFJJJ
 jaja
@@ -21,7 +24,13 @@ MUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDAMUDA
 铲车
 dkdkdjdjjdfifidj
 ```
+
+</span>
+
 ### 符语集合2018
+
+<span class="ignore-opencc">
+
 ```
 鸡e句NBA
 grimrkeo
@@ -91,7 +100,13 @@ to ￡
 Tix来了11141
 2分钟最速手术室传说
 ```
+
+</span>
+
 ### 符语集合2019
+
+<span class="ignore-opencc">
+
 ```
 为什么达见惠现在不唱了？？？？？？？
 你吃小奥利奥也会觉得你变大了
@@ -109,7 +124,15 @@ anguish
 有车的吗！！！！！
 啥事故梁志豪111
 ```
+
+</span>
+
 ### 符语集合2020
+
+<span class="ignore-opencc">
+
 ```
 俶mmmm倡开蚀
 ```
+
+</span>
