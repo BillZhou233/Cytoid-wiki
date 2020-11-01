@@ -112,16 +112,12 @@
       plugins: [
         function(hook, vm) // Convert zh-hans -> zh-hant
           {
-            hook.init(async function()
-            {
-              if (useZHT) window.convert = await OpenCC.Converter('cn', 't');
-            });
-
             hook.doneEach(async function()
             {
               $("html").attr("lang", (useZHT)? "zh-hant": "zh-hans");
               if (useZHT)
               {
+                if (window.convert === undefined) window.convert = await OpenCC.Converter('cn', 't');
                 const startNode = document.documentElement;
                 const HTMLConvertHandler = OpenCC.HTMLConverter2(convert, startNode);
                 HTMLConvertHandler.convert();
