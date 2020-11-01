@@ -19,7 +19,6 @@
     li {
       display: flex;
       flex-direction: column;
-
     }
 
     .app-sub-sidebar {
@@ -86,15 +85,13 @@
   <script src="/site-source/js/opencc/util.js"></script>
 
   <script>
-    const converter = OpenCC.Converter('cn', 't');
-
     window.$docsify = {
       auto2top: true,
       coverpage: true,
       executeScript: true,
       loadSidebar: true,
       loadNavbar: false,
-      mergeNavbar: true,
+      mergeNavbar: false,
       maxLevel: 4,
       subMaxLevel: 5,
       homepage: '_index.md',
@@ -115,12 +112,16 @@
       plugins: [
         function(hook, vm) // Convert zh-hans -> zh-hant
           {
+            hook.init(async function()
+            {
+              const convert = await OpenCC.Converter('cn', 't');
+            });
+
             hook.doneEach(async function()
             {
               $("html").attr("lang", (useZHT)? "zh-hant": "zh-hans");
               if (useZHT)
               {
-                const convert = await converter;
                 const startNode = document.documentElement;
                 const HTMLConvertHandler = OpenCC.HTMLConverter2(convert, startNode);
                 HTMLConvertHandler.convert();
