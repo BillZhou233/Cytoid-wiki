@@ -114,7 +114,7 @@
           {
             hook.init(async function()
             {
-              const convert = await OpenCC.Converter('cn', 't');
+              window.convert = await OpenCC.Converter('cn', 't');
             });
 
             hook.doneEach(async function()
