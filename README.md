@@ -1,4 +1,4 @@
-## Cytoid Unofficial Wiki [![](https://data.jsdelivr.com/v1/package/gh/BillZhou233/Cytoid-wiki/badge)](https://cdn.jsdelivr.net/gh/BillZhou233/Cytoid-wiki@master/) [![](https://api.netlify.com/api/v1/badges/7fb7f710-3977-46f9-9d9c-1bd7a1d85ff9/deploy-status)](https://ctdwiki.netlify.app)
+## Cytoid Unofficial Wiki [![](https://data.jsdelivr.com/v1/package/gh/BillZhou233/Cytoid-wiki/badge)](https://cdn.jsdelivr.net/gh/BillZhou233/Cytoid-wiki@master/)
 
 ### 啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！！！！！！！！！！！
 
