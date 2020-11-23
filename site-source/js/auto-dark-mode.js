@@ -14,7 +14,6 @@ if (hasNativePrefersColorScheme == true) {
         document.body.classList.add('dark-theme');
     }
 
-
     window.matchMedia('(prefers-color-scheme: dark)').addListener(({matches}) => {
         dispatchEvent(new CustomEvent("colorschemechange", {
             detail: {colorScheme: (matches ? "dark" : "daily")}
