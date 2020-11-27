@@ -223,7 +223,7 @@ main {
     position  : relative;
     width     : 100vw;
     height    : 100vw;
-    z-index   : 10;
+    z-index   : 20;
     background: #fff;
 }
 
